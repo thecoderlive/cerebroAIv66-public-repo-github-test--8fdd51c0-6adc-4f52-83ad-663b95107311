@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     "post": {
         "width": "100vw",
         "height": "100vw",
-        "marginTop": 5
+        "marginTop": 5,
+        "backgroundColor": "#56FD5A"
     }
 });
