@@ -64,79 +64,90 @@ return (
 export default Posts;
 
 const styles = StyleSheet.create({
-    "user_image": {
-        "width": "100vw",
-        "height": "100vw",
-        "marginTop": 5
-    },
-    "user_name": {
-        "flex": 1,
-        "color": "hsl(274,100%,60%)",
-        "fontSize": 15,
-        "fontWeight": "400",
-        "paddingHorizontal": 2,
-        "marginHorizontal": 10,
-        "marginTop": 5
-    },
     "like": {
         "width": 30,
         "height": 30,
+        "marginTop": 5,
         "borderRadius": 20,
-        "marginTop": 5
-    },
-    "comment": {
-        "width": 30,
-        "height": 30,
-        "borderRadius": 20,
-        "marginTop": 5
-    },
-    "share": {
-        "width": 30,
-        "height": 30,
-        "borderRadius": 20,
-        "marginTop": 5
+        "backgroundColor": "#56FD5A"
     },
     "save": {
         "width": 30,
         "height": 30,
+        "marginTop": 5,
         "borderRadius": 20,
-        "marginTop": 5
+        "backgroundColor": "#56FD5A"
+    },
+    "share": {
+        "width": 30,
+        "height": 30,
+        "marginTop": 5,
+        "borderRadius": 20,
+        "backgroundColor": "#56FD5A"
+    },
+    "comment": {
+        "width": 30,
+        "height": 30,
+        "marginTop": 5,
+        "borderRadius": 20,
+        "backgroundColor": "#56FD5A"
+    },
+    "comment1": {
+        "flex": 1,
+        "margin": 5,
+        "padding": 10,
+        "fontSize": 15,
+        "fontWeight": "400",
+        "backgroundColor": "whitesmoke"
+    },
+    "user_name": {
+        "flex": 1,
+        "color": "#15B6CA",
+        "fontSize": 18,
+        "marginTop": 5,
+        "fontFamily": "monospace",
+        "fontWeight": "400",
+        "marginHorizontal": 10,
+        "paddingHorizontal": 2
     },
     "post_label": {
         "flex": 1,
-        "color": "hsl(274,100%,60%)",
+        "color": "#15B6CA",
         "fontSize": 15,
+        "marginTop": 5,
+        "fontFamily": "monospace",
         "fontWeight": "400",
-        "paddingHorizontal": 2,
         "marginHorizontal": 10,
-        "marginTop": 5
+        "paddingHorizontal": 2
     },
-    "post_description": {
-        "fontSize": 12,
-        "fontWeight": "250",
-        "paddingHorizontal": 2,
-        "marginHorizontal": 10,
-        "marginTop": 5
-    },
-    "view_comments": {
-        "flex": 1,
-        "padding": 10,
-        "margin": 5,
-        "textAlign": "center",
-        "backgroundColor": "#1ACDA5",
-        "color": "white"
+    "user_image": {
+        "width": "20vw",
+        "height": "20vw",
+        "marginTop": 5,
+        "backgroundColor": "#56FD5A",
+        "marginHorizontal": "10px"
     },
     "profile_image": {
         "width": "100vw",
         "height": "100vw",
-        "marginTop": 5
+        "marginTop": 5,
+        "backgroundColor": "#56FD5A"
     },
-    "comment1": {
+    "view_comments": {
         "flex": 1,
-        "fontSize": 15,
-        "fontWeight": "400",
-        "padding": 10,
+        "color": "white",
         "margin": 5,
-        "backgroundColor": "whitesmoke"
+        "padding": 10,
+        "textAlign": "center",
+        "backgroundColor": "#1ACDA5"
+    },
+    "post_description": {
+        "color": "#B01EFF",
+        "fontSize": 12,
+        "marginTop": 5,
+        "fontFamily": "Roboto",
+        "fontWeight": "250",
+        "marginHorizontal": 10,
+        "paddingHorizontal": 2
     }
 });
